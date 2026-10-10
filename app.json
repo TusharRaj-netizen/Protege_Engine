@@ -1,0 +1,36 @@
+{
+  "expo": {
+    "name": "MediBot",
+    "slug": "medibot",
+    "version": "1.0.0",
+    "orientation": "portrait",
+    "icon": "./assets/icon.png",
+    "userInterfaceStyle": "light",
+    "splash": {
+      "backgroundColor": "#0E7C66"
+    },
+    "ios": {
+      "supportsTablet": true,
+      "bundleIdentifier": "com.medibot.app",
+      "infoPlist": {
+        "NSLocationWhenInUseUsageDescription": "MediBot uses your location to find nearby pharmacies and hospitals.",
+        "NSMicrophoneUsageDescription": "MediBot uses the microphone for voice-based health assistance.",
+        "NSSpeechRecognitionUsageDescription": "MediBot uses speech recognition to understand your health questions."
+      }
+    },
+    "android": {
+      "adaptiveIcon": {
+        "backgroundColor": "#0E7C66"
+      },
+      "permissions": [
+        "ACCESS_COARSE_LOCATION",
+        "ACCESS_FINE_LOCATION",
+        "RECORD_AUDIO"
+      ],
+      "package": "com.medibot.app"
+    },
+    "web": {
+      "favicon": "./assets/favicon.png"
+    }
+  }
+}
