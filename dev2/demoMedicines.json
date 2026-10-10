@@ -1,0 +1,122 @@
+{
+  "version": 1,
+  "source": "Local fallback demo dataset for development/testing. Not medical advice.",
+  "medicines": [
+    {
+      "id": "metformin_500_tablet",
+      "displayName": "Metformin 500 mg tablet",
+      "genericName": "metformin",
+      "strength": "500 mg",
+      "form": "tablet",
+      "commonUse": "Type 2 diabetes (helps lower blood sugar)",
+      "whatItDoes": "Helps your body use sugar better and lowers the sugar made by your liver.",
+      "howToTake": {
+        "timing": "Usually taken 1–2 times a day with meals.",
+        "withFood": true,
+        "notes": "Taking it with food can reduce stomach upset. Swallow with water."
+      },
+      "keyPrecaution": "Call your doctor if you have severe vomiting, deep/fast breathing, or unusual sleepiness (rare but serious).",
+      "commonSideEffects": ["nausea", "diarrhea", "stomach upset", "metallic taste"],
+      "missedDose": "If you miss a dose, take it with food when you remember. If it is close to the next dose, skip the missed dose. Do not double up.",
+      "interactionsOrWarnings": [
+        "Tell your doctor if you have kidney problems.",
+        "Ask before drinking a lot of alcohol; it can raise side-effect risk.",
+        "Some imaging dyes (contrast) may require holding metformin."
+      ],
+      "redFlags": [
+        "fainting or severe weakness",
+        "trouble breathing",
+        "severe dehydration (not peeing much, very thirsty)"
+      ]
+    },
+    {
+      "id": "amlodipine_5_tablet",
+      "displayName": "Amlodipine 5 mg tablet",
+      "genericName": "amlodipine",
+      "strength": "5 mg",
+      "form": "tablet",
+      "commonUse": "High blood pressure (helps lower blood pressure)",
+      "whatItDoes": "Relaxes blood vessels so blood can flow more easily.",
+      "howToTake": {
+        "timing": "Usually taken once daily, at the same time each day.",
+        "withFood": false,
+        "notes": "Can be taken with or without food."
+      },
+      "keyPrecaution": "Stand up slowly—this medicine can cause dizziness, especially when you first start it.",
+      "commonSideEffects": ["ankle swelling", "dizziness", "flushing", "headache"],
+      "missedDose": "Take it when you remember. If it is close to the next dose, skip the missed dose. Do not take two doses at once.",
+      "interactionsOrWarnings": [
+        "Tell your doctor if you have chest pain that is new or worse.",
+        "Ask about grapefruit products if your care team mentions it."
+      ],
+      "redFlags": ["fainting", "severe swelling", "shortness of breath", "chest pain"]
+    },
+    {
+      "id": "atorvastatin_20_tablet",
+      "displayName": "Atorvastatin 20 mg tablet",
+      "genericName": "atorvastatin",
+      "strength": "20 mg",
+      "form": "tablet",
+      "commonUse": "High cholesterol (helps lower LDL ‘bad’ cholesterol)",
+      "whatItDoes": "Helps lower cholesterol and can reduce heart and stroke risk over time.",
+      "howToTake": {
+        "timing": "Once daily. Many people take it at bedtime, but follow your prescriber’s plan.",
+        "withFood": false,
+        "notes": "Can be taken with or without food. Try to take it at the same time each day."
+      },
+      "keyPrecaution": "Call your doctor right away if you get unexplained muscle pain or weakness, especially with fever or dark urine.",
+      "commonSideEffects": ["muscle aches", "upset stomach", "mild headache"],
+      "missedDose": "Take it when you remember the same day. If you remember the next day, skip the missed dose—do not double up.",
+      "interactionsOrWarnings": [
+        "Avoid heavy alcohol use; it can stress the liver.",
+        "Some antibiotics/antifungals and grapefruit products can raise side effects—ask your pharmacist."
+      ],
+      "redFlags": ["severe muscle pain", "dark urine", "yellow skin/eyes"]
+    },
+    {
+      "id": "paracetamol_650_tablet",
+      "displayName": "Paracetamol (Acetaminophen) 650 mg tablet",
+      "genericName": "paracetamol",
+      "alsoKnownAs": ["acetaminophen"],
+      "strength": "650 mg",
+      "form": "tablet",
+      "commonUse": "Pain relief and fever reduction",
+      "whatItDoes": "Helps reduce pain and fever.",
+      "howToTake": {
+        "timing": "As needed, following the label or your doctor’s directions.",
+        "withFood": false,
+        "notes": "Can be taken with or without food. If it upsets your stomach, take with food."
+      },
+      "keyPrecaution": "Do not exceed 4,000 mg (4 g) per day from ALL sources. Many cold/flu products also contain acetaminophen.",
+      "commonSideEffects": ["usually well tolerated when used correctly"],
+      "missedDose": "If you take it on a schedule and miss a dose, take it when you remember unless it is close to the next dose. Do not double up.",
+      "interactionsOrWarnings": [
+        "Avoid alcohol if possible; mixing can harm the liver.",
+        "Ask your doctor if you have liver disease."
+      ],
+      "redFlags": ["yellow skin/eyes", "severe nausea/vomiting", "right-side belly pain"]
+    },
+    {
+      "id": "pantoprazole_40_tablet",
+      "displayName": "Pantoprazole 40 mg tablet",
+      "genericName": "pantoprazole",
+      "strength": "40 mg",
+      "form": "tablet",
+      "commonUse": "Acid reflux/heartburn (reduces stomach acid)",
+      "whatItDoes": "Lowers the acid made in your stomach, which can help heartburn and protect the stomach and esophagus.",
+      "howToTake": {
+        "timing": "Usually once daily, about 30 minutes before breakfast.",
+        "withFood": false,
+        "notes": "Best before a meal so it can work well. Swallow whole with water."
+      },
+      "keyPrecaution": "Tell your doctor if you get ongoing diarrhea, because it can rarely be a sign of an infection.",
+      "commonSideEffects": ["headache", "diarrhea", "stomach pain", "nausea"],
+      "missedDose": "Take it when you remember that day. If it is close to the next dose, skip the missed dose. Do not double up.",
+      "interactionsOrWarnings": [
+        "Long-term daily use should be reviewed with your doctor.",
+        "Tell your doctor about any blood thinners or HIV medicines you take."
+      ],
+      "redFlags": ["black/tarry stools", "vomiting blood", "severe diarrhea", "trouble swallowing"]
+    }
+  ]
+}
